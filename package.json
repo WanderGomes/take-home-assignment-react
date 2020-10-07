@@ -1,0 +1,65 @@
+{
+  "name": "take-home-assigment-react",
+  "version": "0.0.1",
+  "description": "Origin Frontend Challenge",
+  "private": true,
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "parcel ./src/index.html -p 4300",
+    "build": "parcel build ./src/index.html",
+    "test": "jest",
+    "lint": "eslint './src/**/*.{ts,tsx}' './spec/**/*.{ts,tsx}' --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WanderGomes/take-home-assignment-react.git"
+  },
+  "keywords": [
+    "Origin",
+    "Take Home",
+    "Assignment",
+    "Design System"
+  ],
+  "author": {
+    "name": "Wander Rocha Gomes",
+    "email": "wander.rg@gmail.com",
+    "url": "https://github.com/WanderGomes/take-home-assignment-react.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^7.1.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "rxjs": "^6.6.3",
+    "styled-components": "^4.4.1",
+    "take-home-assignment-design-system": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.5",
+    "@types/jest": "^24.9.1",
+    "@types/react": "^16.9.27",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/styled-components": "^4.4.3",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "babel-jest": "^25.2.3",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.2.3",
+    "mkdirp": "^1.0.3",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  }
+}

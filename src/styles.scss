@@ -1,0 +1,11 @@
+%app-height {
+  height: 100%;
+}
+
+:host {
+  @extend %app-height;
+}
+
+#tk-root {
+  @extend %app-height;
+}
