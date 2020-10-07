@@ -1,0 +1,28 @@
+%dashboard-height {
+  height: 100%;
+  min-height: 883px;
+}
+
+:host {
+  @extend %dashboard-height;
+}
+
+.tk-dashboard {
+  @extend %dashboard-height;
+}
+
+@media (max-width: 576px) {
+
+  %dashboard-mobile-height {
+    height: 100%;
+    min-height: 789px;
+  }
+
+  :host {
+    @extend %dashboard-mobile-height;
+  }
+
+  .tk-dashboard {
+    @extend %dashboard-mobile-height;
+  }
+}
