@@ -1,4 +1,4 @@
-# TakeHomeAssigmentReact
+# Take Home Assignment React
 
 This project was created using:
 - [React](https://reactjs.org/) version 16.13.1
@@ -31,7 +31,7 @@ Run `npm run test` to execute the unit tests via [Jest](https://jestjs.io/).
 ## Doubts or Suggestions
 
 For questions or suggestions about the project, send me an email or send me a message on Whatsapp or on Telegram.
-- [wander.rg@gmail.com]
+- wander.rg@gmail.com
 - [whatsapp](https://wa.me/+5561993398992)
 - [telegram](https://t.me/wandergomes)
 
